@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PPSF | Store</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="store.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="store.js" async></script> <!--!to tell browser to load js on background-->
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="store.html">STORE</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header">Seafood</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Pacific Salmon 20lb box</span>
+                <img class="shop-item-image" src="Images+/salmon.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$209.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Pacific Cod 20lb box</span>
+                <img class="shop-item-image" src="Images+/cod-fillet.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$179.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Snow Crab 20lb box</span>
+                <img class="shop-item-image" src="Images+/snow-crab.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$299.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Pacific Halibut 20lb box</span>
+                <img class="shop-item-image" src="Images+/halibut.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$399.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CAVIAR</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">1kg Salmon Caviar</span>
+                <img class="shop-item-image" src="Images+/Chum1kg.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$89.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">500g Salmon Caviar</span>
+                <img class="shop-item-image" src="Images+/pink500g.webp.crdownload">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$49.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total:</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="company-name">Peter Pan Seafood Company, LLC.</h3>
+            <ul class="nav footer-nav">
+
+                <li>
+                    <a href="https://www.linkedin.com/company/peter-pan-seafoods-co/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="30" height="30"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/PeterPanSeafoodCo" target="_blank">
+                        <img src="Images+/Facebook Logo.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
